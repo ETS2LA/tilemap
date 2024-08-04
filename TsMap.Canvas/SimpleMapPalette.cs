@@ -6,18 +6,18 @@ namespace TsMap.Canvas
     {
         public SimpleMapPalette()
         {
-            Background = new SolidBrush(Color.FromArgb(72, 78, 102));
-            Road = Brushes.White;
-            PrefabRoad = Brushes.White;
-            PrefabLight = new SolidBrush(Color.FromArgb(236, 203, 153));
-            PrefabDark = new SolidBrush(Color.FromArgb(225, 163, 56));
-            PrefabGreen = new SolidBrush(Color.FromArgb(170, 203, 150)); // TODO: Check if green has a specific z-index
+            Background = new SolidBrush(Color.FromArgb(27, 27, 27));
+            Road = new SolidBrush(Color.FromArgb(90, 90, 90));
+            PrefabRoad = new SolidBrush(Color.FromArgb(77, 77, 77));
+            PrefabLight = new SolidBrush(Color.FromArgb(120, 120, 120));
+            PrefabDark = new SolidBrush(Color.FromArgb(50, 50, 50));
+            PrefabGreen = new SolidBrush(Color.FromArgb(75, 90, 67)); // TODO: Check if green has a specific z-index
 
-            CityName = Brushes.LightCoral;
+            CityName = new SolidBrush(Color.FromArgb(210, 210, 210));
 
-            FerryLines = new SolidBrush(Color.FromArgb(80, 255, 255, 255));
+            FerryLines = new SolidBrush(Color.FromArgb(30, 255, 255, 255));
 
-            Error = Brushes.LightCoral;
+            Error = new SolidBrush(Color.FromArgb(90, 0, 0));
         }
     }
 }
